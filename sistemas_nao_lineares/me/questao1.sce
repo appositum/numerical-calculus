@@ -1,3 +1,6 @@
+// Questão 1
+// letra D
+
 function y=F(x)
     f1 = x(1).^2 + x(1).*x(2) - 10
     f2 = (3.*x(1)).*(x(2).^2) + x(2) - 57
@@ -23,4 +26,20 @@ printf("\n\n")
 printf("Aplicando F na aproximação obtida F(w)")
 disp(F(w))
 
-// letra D
+//   NEWTON - RAPHSON    
+//SISTEMAS NÃO LINEARES  
+// 
+// 
+//k= 4  iteracoes
+//
+//   1.98   1.9969635   1.999992    2.
+//   2.78   3.0127605   3.0000133   3.
+//
+//Aproximação obtida:
+//   2.
+//   3.
+//
+//
+//Aplicando F na aproximação obtida F(w)
+//  -4.267D-11
+//  -8.570D-10
