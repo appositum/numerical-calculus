@@ -30,6 +30,10 @@ endfunction
 err = abs(f(0.65) - p(0.65))
 printf("Erro absoluto |y(0.65) - p(0.65)|: %g\n", err)
 
+axes = get("default_axes")
+axes.x_location = "origin"
+axes.y_location = "origin"
+
 t = -1:0.05:2
 plot2d(x, y, -4)
 plot(t, p(t))
