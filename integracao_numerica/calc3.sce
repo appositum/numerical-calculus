@@ -21,5 +21,5 @@ x4 = b
 
 // calculo do erro
 x = a:0.05:b
-//err = ((3.*h.^(5))./80).*max(abs(df(x)))
-//printf("\nLimitante superior do erro: %g\n", err)
+err = ((3.*h.^(5))./80).*max(abs(df(x)))
+printf("\nLimitante superior do erro: %g\n", err)
